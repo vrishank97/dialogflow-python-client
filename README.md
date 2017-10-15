@@ -25,11 +25,10 @@ Running examples
 1. Find examples from 'examples' path.
 2. Insert API key.
 
-.. code-block:: python
-
+```python
     >>> CLIENT_ACCESS_TOKEN = '<YOUR_CLIENT_ACCESS_TOKEN>'
     ...
-
+```
 Features
 --------
 
@@ -42,25 +41,22 @@ Installation
 
 To install apiai, simply:
 
-.. code-block:: bash
-
+```bash
     $ pip install apiai
-
+```
 or install it from repo:
 
-.. code-block:: bash
-
+```bash
     $ pip install https://github.com/api-ai/api-ai-python.git
-
+```
 You might run into problems because some dependencies in your python environment are missing. You need to install numpy (which is available in almost all package managers). For running the examples you also need python audio.
 
 In ubuntu the following will do the job:
 
-.. code-block:: bash
-
+```bash
     $ apt-get install python-pyaudio python-numpy
     $ pip install apiai
-
+```
 Documentation
 -------------
 
